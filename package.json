@@ -1,0 +1,21 @@
+{
+  "name": "tinyui-plus",
+  "version": "1.0.0",
+  "description": "A simple Vue3 + TypeScript UI component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.1",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@tinyui-plus/components": "workspace:*",
+    "@tinyui-plus/theme-chalk": "workspace:*",
+    "@tinyui-plus/utils": "workspace:*"
+  }
+}
