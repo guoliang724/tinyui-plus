@@ -2,7 +2,8 @@
   "name": "@tinyui-plus/utils",
   "version": "1.0.0",
   "description": "A set of utility functions for TinyUI Plus",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "types.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

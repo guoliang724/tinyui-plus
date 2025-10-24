@@ -4,6 +4,7 @@
   "description": "A simple Vue3 + TypeScript UI component library",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm -C examples dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,11 +12,13 @@
   "license": "ISC",
   "packageManager": "pnpm@10.18.1",
   "devDependencies": {
+    "@vue/tsconfig": "^0.8.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@tinyui-plus/components": "workspace:*",
     "@tinyui-plus/theme-chalk": "workspace:*",
-    "@tinyui-plus/utils": "workspace:*"
+    "@tinyui-plus/utils": "workspace:*",
+    "vue": "^3.5.22"
   }
 }
