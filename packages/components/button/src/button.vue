@@ -1,15 +1,9 @@
 <template>
-    <div>
-
-    </div>
+  <div>
+    <h1>Button Component</h1>
+  </div>
 </template>
 
-<script setup lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts"></script>
 
-
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
