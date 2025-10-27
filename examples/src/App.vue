@@ -37,6 +37,7 @@ p {
   // border: 1px solid #ccc;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .active {
   border-bottom: 3px solid hsla(160, 100%, 37%, 1);

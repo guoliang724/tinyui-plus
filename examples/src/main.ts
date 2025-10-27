@@ -5,6 +5,7 @@ import App from './App.vue'
 import router from './router'
 
 import TinyButton from '@tinyui-plus/components/button'
+import '@tinyui-plus/theme-chalk/src/index.scss'
 
 const app = createApp(App)
 
