@@ -5,16 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm -C examples dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pnpm -C packages/components test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.18.1",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.8.1",
+    "jsdom": "^27.0.1",
     "sass": "^1.93.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.4"
   },
   "dependencies": {
     "@tinyui-plus/components": "workspace:*",
