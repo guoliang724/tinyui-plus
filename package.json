@@ -3,19 +3,30 @@
   "version": "1.0.0",
   "description": "A simple Vue3 + TypeScript UI component library",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "pnpm -C examples dev",
-    "test": "pnpm -C packages/components test"
+    "test": "pnpm -C packages/components test",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.18.1",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.8.1",
     "jsdom": "^27.0.1",
+    "rollup": "^4.52.5",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-delete": "^3.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.93.2",
     "typescript": "^5.9.3",
     "vitest": "^4.0.4"

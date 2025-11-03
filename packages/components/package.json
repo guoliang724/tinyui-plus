@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "A set of UI components for TinyUI Plus",
   "main": "index.js",
+  "type": "module",
+  "types": "index.d.ts",
   "scripts": {
     "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.18.1"
+  "packageManager": "pnpm@10.18.1",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
 }
