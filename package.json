@@ -9,7 +9,18 @@
     "test": "pnpm -C packages/components test",
     "build": "rollup -c"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoliang724/tiny-js-util2.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "ui",
+    "component",
+    "library",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.18.1",
@@ -37,5 +48,9 @@
     "@tinyui-plus/utils": "workspace:*",
     "vue": "^3.5.22"
   },
-  "files": ["/dist","LICENSE","README.md"]
+  "files": [
+    "/dist",
+    "LICENSE",
+    "README.md"
+  ]
 }
